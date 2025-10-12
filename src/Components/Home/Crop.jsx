@@ -2539,7 +2539,163 @@ export default function CoverImg() {
       <p className="text-gray-800">
         پنجاب میں پچھلے پانچ سالوں میں پھول گوبھی کے زیر کاشت رقبہ، کل پیداوار اور اوسط پیداوار درج ذیل ہے:
       </p>
+ <div className="text-right leading-relaxed space-y-4 bg-green-50 text-gray-800 p-4 rounded-lg">
+      {/* مین ہیڈنگ */}
+      <h2 className="text-2xl font-bold text-green-700 bg-green-200 p-3 rounded-lg text-center">
+        پیداواری منصوبہ سبزیات موسم سرما 2024-25
+      </h2>
 
+      {/* مٹر سیکشن */}
+      <h3 className="text-xl font-bold text-green-700 border-b-2 border-green-400 pb-1">
+        مٹر
+      </h3>
+
+      <p className="bg-white p-3 rounded shadow">
+        شرح بیج: مٹر کی اگیتی اقسام کیلئے 30-35 کلو گرام اور تحقیقی اقسام کیلئے 20-25 کلو گرام بیج فی ایکڑ استعمال کریں۔  
+        مٹر کی ترقی دادہ اقسام: وقت کاشت کے لحاظ سے مٹر کی اگیتی اور تحقیقی اقسام ہیں۔ اگیتی اقسام کا فصلی دورانیہ 60-70 دن ہے جبکہ تحقیقی اقسام کا دورانیہ 100-125 دن تک ہے۔ ادارہ تحقیقات بہتر بات فیصل آباد کی تیار کردہ آئینی اور تحقیقی اقسام اور خصوصیات درج ذیل ہیں:
+      </p>
+
+      {/* جدول (Table) */}
+      <table className="w-full border border-green-600 text-center bg-white rounded-lg shadow">
+        <thead className="bg-green-200 text-green-900">
+          <tr>
+            <th className="border border-green-600 p-2">نمبر شمار</th>
+            <th className="border border-green-600 p-2">اقسام</th>
+            <th className="border border-green-600 p-2">گروپ</th>
+            <th className="border border-green-600 p-2">خصوصیات</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border border-green-600 p-2">1</td>
+            <td className="border border-green-600 p-2">پریم</td>
+            <td className="border border-green-600 p-2">اگیتی</td>
+            <td className="border border-green-600 p-2">
+              پیداواری صلاحیت بہترین۔ سبز پھلیوں کی پیداوار 100 من فی ایکڑ، بیج 20-25 من۔ پھلی لمبی، دانے 11-15۔
+            </td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">2</td>
+            <td className="border border-green-600 p-2">اتفاق</td>
+            <td className="border border-green-600 p-2">اگیتی</td>
+            <td className="border border-green-600 p-2">
+              پھلی لمبی، دانے 11-18۔ بیماریوں کے خلاف مزاحمت۔ سبز پھلیوں کی پیداوار 80-85 من، بیج 25-30 من۔
+            </td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">3</td>
+            <td className="border border-green-600 p-2">جمیعی</td>
+            <td className="border border-green-600 p-2">تحقیقی</td>
+            <td className="border border-green-600 p-2">
+              پھل 7 سینٹی میٹر، فی پھلی 7-8 دانے۔ سبز پھلیوں کی پیداوار 55-60 من، بیج 20-25 من۔
+            </td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">4</td>
+            <td className="border border-green-600 p-2">راز الحق</td>
+            <td className="border border-green-600 p-2">تحقیقی</td>
+            <td className="border border-green-600 p-2">
+              زیادہ پیداوار دینے والی قسم۔ فی پھلی 6-7 دانے۔ سبز پھلیوں کی پیداوار 75-80 من۔
+            </td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">5</td>
+            <td className="border border-green-600 p-2">اہمیتی</td>
+            <td className="border border-green-600 p-2">تحقیقی</td>
+            <td className="border border-green-600 p-2">
+              پھلی سبز، دانے زرد۔ سبز پھلیوں کی پیداوار 45-50 من، بیج 20-25 من۔
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      {/* آبپاشی */}
+      <h4 className="text-lg font-semibold text-green-700 mt-3">آبپاشی:</h4>
+      <p className="bg-white p-3 rounded shadow">
+        اکھٹی کا یہ فصل کو شروع میں ہر ملتے پانی کی ضرورت ہوتی ہے تا ہم موسم سرد ہو جائے تو یہ وقفہ بڑھایا جا سکتا ہے۔ بیج والی فصل کو پھول آنے اور پھلیاں بننے پر آبپاشی ضرور کریں۔
+      </p>
+
+      {/* پرندوں سے حفاظت */}
+      <h4 className="text-lg font-semibold text-green-700">پرندوں سے حفاظت:</h4>
+      <p className="bg-white p-3 rounded shadow">
+        مٹر کی پھلیوں کو مختلف پرندے مثلاً طوطے اور مینا نقصان پہنچاتے ہیں۔ جب پھلیاں دانوں سے بھری ہوں تو نقصان کا خطرہ زیادہ ہوتا ہے۔
+      </p>
+
+      <ul className="list-disc pr-6 bg-green-100 p-3 rounded">
+        <li>کھیت کے ارد گرد چمکدار باریک پلاسٹک فیتہ لگائیں تاکہ پرندے دور رہیں۔</li>
+        <li>کھیت میں پرانی کپڑے کی گڑیا یا آدمی کی شکل کا پُتلا لگا دیں۔</li>
+        <li>صبح و شام کے وقت شور یا ڈھول بجا کر پرندوں کو بھگائیں۔</li>
+      </ul>
+
+      {/* برداشت */}
+      <h4 className="text-lg font-semibold text-green-700">برداشت:</h4>
+      <p className="bg-white p-3 rounded shadow">
+        جب پھلیوں میں دانے بھر جائیں تو سبز پھلیوں کی چنائی کریں۔ چنائی احتیاط سے کریں تاکہ پودے الٹ نہ جائیں۔ مقامی منڈی کیلئے صبح اور دور دراز کیلئے شام کو چنائی بہتر ہے۔ پھلیوں کو کپڑے کی صاف بوریوں میں رکھیں تاکہ تازگی برقرار رہے۔ عام طور پر اگیتی اقسام دو چنائیاں جبکہ تحقیقی اقسام تین چنائیاں دیتی ہیں۔
+      </p>
+
+      {/* پھول گوبھی */}
+      <h3 className="text-xl font-bold text-green-700 border-b-2 border-green-400 pb-1">
+        پھول گوبھی
+      </h3>
+
+      <p className="bg-white p-3 rounded shadow">
+        پھول گوبھی موسمِ سرما کی ایک لذیذ سبزی ہے۔ اس کا نباتاتی نام{" "}
+        <span className="font-semibold text-green-700">
+          Brassica oleracea var. botrytis
+        </span>{" "}
+        ہے۔ یہ غذائیت سے بھرپور ریشہ دار سبزی ہے جس میں وٹامن K، اومیگا 3 فیٹی ایسڈز، کیلشیم، میگنیشیم اور فاسفورس شامل ہیں۔ یہ دل، ہڈیوں اور دماغ کیلئے مفید ہے۔
+      </p>
+
+      {/* پھول گوبھی کی جدول */}
+      <table className="w-full border border-green-600 text-center bg-white rounded-lg shadow">
+        <thead className="bg-green-200 text-green-900">
+          <tr>
+            <th className="border border-green-600 p-2">سال</th>
+            <th className="border border-green-600 p-2">زیر کاشت رقبہ (ہزار ہیکٹر)</th>
+            <th className="border border-green-600 p-2">کل پیداوار (ہزار ٹن)</th>
+            <th className="border border-green-600 p-2">اوسط پیداوار (من فی ایکڑ)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border border-green-600 p-2">2019-20</td>
+            <td className="border border-green-600 p-2">4.626</td>
+            <td className="border border-green-600 p-2">117.238</td>
+            <td className="border border-green-600 p-2">256.38</td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">2020-21</td>
+            <td className="border border-green-600 p-2">6.993</td>
+            <td className="border border-green-600 p-2">253.455</td>
+            <td className="border border-green-600 p-2">366.69</td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">2021-22</td>
+            <td className="border border-green-600 p-2">6.076</td>
+            <td className="border border-green-600 p-2">214.785</td>
+            <td className="border border-green-600 p-2">357.62</td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">2022-23</td>
+            <td className="border border-green-600 p-2">6.988</td>
+            <td className="border border-green-600 p-2">277.071</td>
+            <td className="border border-green-600 p-2">401.00</td>
+          </tr>
+          <tr>
+            <td className="border border-green-600 p-2">2023-24</td>
+            <td className="border border-green-600 p-2">5.351</td>
+            <td className="border border-green-600 p-2">255.754</td>
+            <td className="border border-green-600 p-2">484.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      {/* نتیجہ */}
+      <h4 className="text-lg font-semibold text-green-700 mt-3">نتیجہ:</h4>
+      <p className="bg-green-100 p-3 rounded">
+        مناسب آبپاشی، پرندوں سے حفاظت اور وقت پر برداشت کرنے سے مٹر اور پھول گوبھی کی پیداوار میں واضح اضافہ کیا جا سکتا ہے۔
+      </p>
+    </div>
       {/* --- جدول --- */}
       <div className="overflow-x-auto">
         <table className="table-auto border-collapse border border-gray-400 w-full text-center">
@@ -2571,7 +2727,7 @@ export default function CoverImg() {
               <td className="border p-2">366.69</td>
             </tr>
             <tr className="bg-gray-100">
-              <td className="border p-2">2021-22</td>
+              <td className="border p-2">2025-27</td>
               <td className="border p-2">6.076</td>
               <td className="border p-2">15.015</td>
               <td className="border p-2">214.785</td>
